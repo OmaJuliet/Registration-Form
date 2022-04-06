@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Lobster' cursive;
+    font-size: 20px;
+    background-color: black;
+  }
+
+  
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    
+  }
+  
+  
+  .to-put {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .to-put:focus {
+    background-color: rgb(221, 205, 205);
+    color: black;
+    outline: none;
+  }
+  
+
+  hr {
+    border: 1.5px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .btn {
+    background-color: rgb(184, 69, 184);
+    color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding: 16px 20px;
+    margin: 7px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transition: 1.5s;
+    background-color: rgb(143, 31, 143);
+    opacity: 1;
+  }
+  
+ 
+  a {
+    text-decoration: none;
+    color: rgb(194, 40, 40);
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
